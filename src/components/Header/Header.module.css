@@ -5,3 +5,20 @@
 	text-align: center;
   }
   
+  .nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+  }
+  
+  .navList {
+	list-style: none;
+	padding: 0;
+	display: flex;
+  }
+  
+  .navItem {
+	margin: 0 1em;
+	cursor: pointer;
+  }
+  
