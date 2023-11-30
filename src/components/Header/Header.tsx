@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
 
 const Header: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Header: React.FC = () => {
           <li className={styles.navItem}><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
+      <LanguageSwitcher />
     </header>
   );
 };
