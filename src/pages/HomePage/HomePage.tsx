@@ -1,7 +1,8 @@
+import React from 'react';
+import styles from './HomePage.module.css';
+
 const HomePage: React.FC = () => {
-	// コンポーネントの内容
-	return <div>Home Page</div>;
-  };
-  
-  export default HomePage;
-  
+  return <div className={styles.homePage}>Home Page</div>;
+};
+
+export default HomePage;

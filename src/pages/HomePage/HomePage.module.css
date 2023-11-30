@@ -1,0 +1,31 @@
+/* src/pages/HomePage/HomePage.module.css */
+.homePage {
+	/* デフォルトのスタイル */
+	padding: 20px;
+	text-align: center;
+  }
+  
+  /* スマートフォン用のスタイル */
+  @media (max-width: 600px) {
+	.homePage {
+	  background-color: lightblue; /* 例: 背景色の変更 */
+	  font-size: 14px; /* 例: フォントサイズの調整 */
+	}
+  }
+  
+  /* タブレット用のスタイル */
+  @media (min-width: 601px) and (max-width: 1024px) {
+	.homePage {
+	  background-color: lightgreen; /* 例 */
+	  font-size: 16px; /* 例 */
+	}
+  }
+  
+  /* デスクトップ用のスタイル */
+  @media (min-width: 1025px) {
+	.homePage {
+	  background-color: lightcoral; /* 例 */
+	  font-size: 18px; /* 例 */
+	}
+  }
+  
